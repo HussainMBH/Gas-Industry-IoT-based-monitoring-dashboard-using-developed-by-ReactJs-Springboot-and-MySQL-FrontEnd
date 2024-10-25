@@ -163,7 +163,7 @@ const Dashboard = () => {
       {/* Edit Modal */}
       <Modal show={showEditModal} onHide={() => setShowEditModal(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit Equipment Current Data</Modal.Title>
+          <Modal.Title>Edit Equipment Data</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
