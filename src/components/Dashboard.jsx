@@ -168,7 +168,7 @@ const Dashboard = () => {
         <Modal.Body>
           <Form>
             <Form.Group>
-              <Form.Label>Temperature:-</Form.Label>
+              <Form.Label>Temperature</Form.Label>
               <Form.Control
                 type="number"
                 value={formData.temperature}
